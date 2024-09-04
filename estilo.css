@@ -1,0 +1,51 @@
+/*Comandos para o corpo do site*/
+
+body {
+  background-color: #173e71;
+  color: white;
+}
+
+/*Comando para o título*/
+
+h1 {
+  color: white;
+}
+
+/*Comandos para a tag input*/
+
+input {
+  width: 100px;
+  background-color: white;
+}
+
+/*Comandos para a tabela*/
+
+table#tabela {
+  width: 300px;
+  border: 1px solid white;
+  border-spacing: 0px;
+  margin-top: 20px;
+  background-color: #052c61;
+}
+
+table#tabela td {
+  padding: 5px;
+  text-align: left;
+  vertical-align: middle;
+  color: white;
+  border: 1px solid white;
+}
+
+table#tabela th {
+  padding: 5px;
+}
+
+table button {
+  margin: 5px;
+  position: absolute;
+  left: 215px;
+}
+
+.fa-edit {
+  left: 250px;
+}
