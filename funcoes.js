@@ -8,8 +8,8 @@ function listar() {
   
   for (let pos in lista) {
     tabela.innerHTML += `<tr><td>${Number(pos)+1}. ${lista[pos]}</td></tr>`
-    tabela.innerHTML += `<button id="botaoExcluir" style="top:${(Number(pos)*32.3) + 150}px;" class="fa fa-trash" onclick="excluir(${Number(pos)})"></button>`;
-    tabela.innerHTML += `<button id="botaoEditar" style="top:${(Number(pos)*32.3) + 150}px;" class="fa fa-edit" onclick="editar(${Number(pos)})"></button>`;
+    tabela.innerHTML += `<button id="botaoExcluir" style="top:${(Number(pos)*32.3) + 140}px;" class="fa fa-trash" onclick="excluir(${Number(pos)})"></button>`;
+    tabela.innerHTML += `<button id="botaoEditar" style="top:${(Number(pos)*32.3) + 140}px;" class="fa fa-edit" onclick="editar(${Number(pos)})"></button>`;
   }
 }
 
