@@ -34,6 +34,7 @@ table#tabela td {
   vertical-align: middle;
   color: white;
   border: 1px solid white;
+  margin: 3px;
 }
 
 table#tabela th {
